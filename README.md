@@ -1,6 +1,6 @@
 # aotoo的基础项目  
 
-这是是`aotoo-hub`的子项目，需要通过远程安装使用(aotoo-hub脚手架环境中)。本项目是一个react，aotoo的远程基础项目，用于演示或快速搭建react，aotoo的本地开发环境。
+这是是`aotoo-hub`的子项目，需要通过远程安装使用(aotoo-hub脚手架环境中)。本项目是一个antd的远程基础项目，用于演示或快速搭建antd的本地开发环境。
 
 [aotoo-hub介绍](http://www.agzgz.com)
 
@@ -27,7 +27,7 @@ cd workspacename
 安装`hub-react`项目
 
 ```bash
-aotoo install https://github.com/webkixi/hub-aotoo-case.git
+aotoo install https://github.com/webkixi/hub-aotoo-antd.git
 ```
 
 根据提示操作，等待安装完毕，即可在本地运行项目

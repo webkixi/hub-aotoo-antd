@@ -77,6 +77,9 @@ function template(state, props) {
           Submit
         </Button>
       </Form.Item>
+      <h4>
+        <a href="http://www.agzgz.com" target="_blank">{state.title}</a>
+      </h4>
     </Form>
   )
 }
@@ -86,7 +89,7 @@ export default function(Pager) {
     template,
 
     data: {
-      title: '这是a页面',
+      title: 'by aotoo-hub 脚手架',
       radioValue: 1
     },
 
