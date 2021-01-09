@@ -1,0 +1,21 @@
+{
+  "name": "@aotoo/hub-aotoo-antd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aotoo/aotoo": "^6.1.38",
+    "@aotoo/react-pager": "^1.0.1",
+    "antd": "^4.10.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "^1.13.3"
+  }
+}

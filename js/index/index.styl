@@ -1,0 +1,52 @@
+ss-display-flex($flex-flow = row nowrap, $justify-content = flex-start, $align-items = false, $align-content = false)
+  display: flex
+  flex-flow: $flex-flow
+  justify-content: $justify-content
+  if ( $align-items != false)
+    align-items: $align-items
+  if ( $align-content != false)
+    align-content: $align-content
+/***************路由菜单部分*********************/
+ss-menus($class='>.hlist')
+  {$class}
+    width: 180px
+    max-width: 430px
+    background:  #fff
+    transition: 250ms ease;
+    line-height: 40px
+    border-right: 1px solid #E5E6ED
+    >.item
+      padding: 0 2em
+      &.active
+        color: #0076FF
+/***************路由菜单部分 end*********************/
+
+* 
+  margin: 0
+  padding: 0
+
+html, body, .container
+  height 100%
+  overflow: hidden
+.router-container
+  background: #fff
+  height: 100%
+  ss-display-flex(row nowrap, flex-start)
+  //菜单部分
+  // >.router-menus
+  //   color: #666
+  //   margin-right: 0 2em
+  //   flex: 0 0 auto
+  //   ss-menus()
+  ss-menus('>.hlist:first-child')
+  //内容部分
+  >.router-page
+    flex: 1
+    overflow: hidden
+    ss-display-flex(column)
+    .page
+      width: 500px
+      margin-top 2rem
+  
+
+
